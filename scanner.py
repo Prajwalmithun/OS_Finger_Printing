@@ -1,6 +1,6 @@
 import nmap
 import sys
-import time
+from datetime import datetime
 
 #Initiating the port scanner
 nm_scanner=nmap.PortScanner()
@@ -25,6 +25,7 @@ prediction_per="OS Prediction percentage is :"+nm_scan['scan'][sys.argv[1]]['osm
 
 with open("osinfo.txt",'w') as f:
     f.write(host_is_up+port_open+method_scan+predicted_os+prediction_per)
-    f.write("\nTimestamp:"+time.strftime("%Y-%m-%d_%H:%M:%S GMT",time.gmtime()))
+    now=datetime.now();
+    f.write("\nTimestamp:"+now.strftime("%Y-%m-%d_%H:%M:%S IST"))
 
 print("\nCompleted....")
