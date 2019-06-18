@@ -1,0 +1,7 @@
+The host is:up.
+Port 80 is:open.
+Scanning method is:syn-ack.
+Predicted Operating System is:Linux.
+OS Prediction percentage is :100.
+
+Timestamp:2019-06-18_03:38:29 GMT
