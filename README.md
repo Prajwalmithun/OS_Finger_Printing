@@ -1,6 +1,7 @@
 # OS_Finger_Printing
-This project mainly encompasses on determining the operating system of the specific host in the network that it is connected to.
 
+This project mainly encompasses on determining the operating system of the specific host in the network that it is connected to.
+It is one of the methods under Information Gathering under the PTES(ie.,Penetration Testing Execution Standard). 
 ## Getting Started
   ### Prerequisite
   ```
