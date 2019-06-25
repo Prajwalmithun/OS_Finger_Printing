@@ -1,0 +1,4 @@
+What is os fingerprinting?
+What is the use of this ?
+How is it different from existing on ?
+How is it implemented ?
