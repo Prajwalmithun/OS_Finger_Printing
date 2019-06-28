@@ -25,7 +25,7 @@ It is one of the methods under Active Information Gathering under the PTES(ie.,P
   ```
   $ git clone https://github.com/Prajwalmithun/OS_Finger_Printing.git
   $ cd OS_Finger_Printing
-  $ python3 scanner.py [ip_address of the host]
+  $ sudo python3 scanner.py [ip_address of the host]
   $ vi osinfo.txt
   ```
   This "osinfo.txt" file contains the information about the operating system, ports that are open.
